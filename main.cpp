@@ -89,7 +89,7 @@ int main_start(int argc, char **argv)
 	//creates an instance of the map class called theMap
 	Map theMap;
 
-	std::string path = "/images/JRCGraphic.png";
+	std::string path = "/images/BlankMap.png";
 	if(texture != NULL)
 	SDL_DestroyTexture(texture);
 	//Load image
